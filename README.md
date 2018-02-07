@@ -10,7 +10,7 @@
 
     lein uberjar
 
-### Make an `edn2json` executable
+### Make a standalone `edn2json` executable
 
     lein clean
     lein uberjar
