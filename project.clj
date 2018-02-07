@@ -1,4 +1,4 @@
-(defproject com.oscaro/edn2json "0.1.0"
+(defproject com.oscaro/edn2json "0.1.1-SNAPSHOT"
   :description "Convert EDN to JSON"
   :url "https://github.com/oscaro/edn2json"
   :license {:name "Eclipse Public License"
