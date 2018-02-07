@@ -4,18 +4,22 @@
 
 ## Usage
 
-    cat *.edn | lein run > myfile.jsons
+    cat *.edn | edn2json > myfile.jsons
 
-## Build
+## Install
 
-    lein uberjar
+### On macOS with Homebrew
 
-### Make a standalone `edn2json` executable
+    brew install oscaro/public/edn2json
+
+### From source
 
     lein clean
     lein uberjar
     echo "#! $(which java) -jar" | cat - target/edn2json-*-standalone.jar > edn2json
     chmod u+x edn2json
+
+Then move the standalone `edn2json` executable somewhere in your `PATH`.
 
 ## License
 
