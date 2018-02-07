@@ -1,5 +1,5 @@
 # Edn2json Changelog
 
-## 0.0.1 (2016/10/17)
+## 0.1.0 (2018/02/07)
 
-* Initial release
+First public release.
